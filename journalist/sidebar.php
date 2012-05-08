@@ -54,4 +54,10 @@
 </div>
 <?php } ?>
 
+<h3>Flux RSS</h3>
+<div>
+<img src='<?php echo bloginfo('template_url').'/images/rss.png'; ?>'/> <a hr    ef='<?php echo bloginfo('rss2_url'); ?>'>Nectar du bouillon</a><br/>
+<img src='<?php echo bloginfo('template_url').'/images/rss.png'; ?>'/> <a hr    ef='<?php echo bloginfo('rss2_url')."nectar"; ?>'>Bouillon roboratif</a>
+</div>
+
 </div>

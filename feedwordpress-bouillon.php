@@ -6,6 +6,9 @@
     Author: Sylvain Machefert
     
     Historique
+      20120508 
+      	- Suppression du menu admin qui n'est plus utilisé (pour envoi des mails au départ)
+      	
       20111028
         - Ajout de l'extraction des mots-clés depuis Diigo
       
@@ -38,7 +41,7 @@
   // On va faire en sorte de créer une table qui nous servira à stocker les membres inscrits
   register_activation_hook(__FILE__,'bouillon_install');
 
-  add_action('admin_menu', 'bouillon_add_menu');
+  # add_action('admin_menu', 'bouillon_add_menu');
   
 //  add_action('init', '');
   
